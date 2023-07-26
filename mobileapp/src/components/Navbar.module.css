@@ -1,0 +1,44 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    background-color: black;
+}
+
+.logo{
+    height: 100%;
+    width: 300px;
+
+}
+.logo>h1{
+    color: white;
+    margin-top: 5px;
+}
+.tabs{
+    height: 100%;
+    width: 400px;
+
+}
+.tabs>ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.tabs>ul>li{
+    color: white;
+    font-weight: bold;
+
+}
+.button{
+    height: 100%;
+    width: 150px;
+
+}
+.button>button{
+    width: 130px;
+    padding: 5px 8px;
+    margin-top: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: aqua;
+}
